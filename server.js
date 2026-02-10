@@ -8,7 +8,7 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
-const EMAIL = "arshiya1542@chitkara.edu.in";
+const EMAIL = "jyoti1944@chitkara.edu.in";
 
 //Gemini Key Initialization
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
